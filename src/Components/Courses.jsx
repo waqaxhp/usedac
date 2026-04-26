@@ -2,38 +2,6 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-// const courses = [
-//   {
-//     id: 1,
-//     title: "Noorani Qaida",
-//     image: "/Content/Images/c1.png",
-//   },
-//   {
-//     id: 2,
-//     title: "Tajweed e Quran",
-//     image: "/Content/Images/c2.png",
-//   },
-//   {
-//     id: 3,
-//     title: "Islamic Studies",
-//     image: "/Content/Images/c3.png",
-//   },
-//   {
-//     id: 4,
-//     title: "Quran Translation",
-//     image: "/Content/Images/c4.png",
-//   },
-//   {
-//     id: 5,
-//     title: "Arabic Language",
-//     image: "/Content/Images/c5.png",
-//   },
-//   {
-//     id: 6,
-//     title: "Quran Memorization",
-//     image: "/Content/Images/c5.png",
-//   },
-// ];
 const categories = [
   {
     id: 1,

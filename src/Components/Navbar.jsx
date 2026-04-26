@@ -43,7 +43,7 @@ const Navbar = () => {
                 Courses
               </NavLink>
               {/* Dropdown Menu */}
-              <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg rounded-lg mt-2">
+              {/* <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg rounded-lg mt-2">
                 <NavLink
                   to="/digital-library"
                   className="block px-4 py-2 font-bold text-gray-700 hover:bg-green-100"
@@ -69,7 +69,7 @@ const Navbar = () => {
                 >
                   Quran Memorization
                 </NavLink>
-              </div>
+              </div> */}
             </div>
             <NavLink
               to="/testimonials"
@@ -78,13 +78,13 @@ const Navbar = () => {
               Testimonial
             </NavLink>
             <NavLink
-              to="/hadiya"
+              to="/pricing"
               className="text-gray-200 font-bold hover:text-green-700"
             >
               Pricing
             </NavLink>
             <NavLink
-              to="/teachers"
+              to="/mechanics"
               className="text-gray-200 font-bold hover:text-green-700"
             >
               Mechanics
@@ -178,7 +178,7 @@ const Navbar = () => {
             Testimonial
           </a>
           <a
-            href="/hadiya"
+            href="/Pricing"
             className="block px-4 py-2 text-gray-700 hover:bg-green-100"
           >
             Pricing

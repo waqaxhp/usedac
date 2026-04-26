@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <div className="flex items-center mb-4">
             <img
-              src="/public/Content/Images/Ac logo.png"
+              src="/Content/Images/Ac logo.png"
               alt="USed Ac Sell Parchase"
               className="w-15 h-12 "
             />
@@ -47,7 +47,7 @@ const Footer = () => {
             <li>📞 +923356863576</li>
             <li>📧 waqaxhp@gmail.com</li>
             <li className="flex gap-3">
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/profile.php?id=100012446073340">
                 <FaFacebookSquare />
               </a>
 

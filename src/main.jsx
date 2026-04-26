@@ -45,7 +45,7 @@ const router = createBrowserRouter([
         element: <Accordion />,
       },
       {
-        path: "/hadiya",
+        path: "/Pricing",
         element: <PricingPlans />,
       },
       {
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
         element: <LiveQuranTeachers />,
       },
       {
-        path: "/teachers",
+        path: "/mechanics",
         element: <MaleQuranTeacher />,
       },
       {
@@ -65,5 +65,5 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <RouterProvider router={router} />,
 );

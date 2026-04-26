@@ -6,42 +6,42 @@ const features = [
     icon: "🌐",
     title: "No Language Barrier",
     description:
-      "Master the Quran online without language barriers. Our skilled English-speaking tutors provide clear Tajweed lessons.",
+      "Get AC buying, selling, and repair services without any communication barriers. Our support team helps you in multiple languages for easy understanding.",
   },
   {
     id: 2,
     icon: "👥",
-    title: "One-on-One Classes",
+    title: "One-on-One Service",
     description:
-      "We offer personalized classes with a one-on-one learning approach, ensuring gender-specific instruction.",
+      "We provide personalized AC repair and installation services with dedicated technician support for your specific needs.",
   },
   {
     id: 3,
     icon: "⏰",
-    title: "24/7 Service",
+    title: "24/7 Support Service",
     description:
-      "Our flexible Quran lessons are available anytime, making it easy to learn even with the busiest schedules.",
+      "Our AC repair and emergency support services are available 24/7 to ensure your cooling system works anytime you need it.",
   },
   {
     id: 4,
     icon: "🎙️",
-    title: "Record and Playback",
+    title: "Inspection & Reporting",
     description:
-      "Learn Quran effectively with our online Quran Academy record and replay feature. Review classes at your own pace.",
+      "We provide complete AC inspection with detailed reports so you can understand the condition and performance of your unit.",
   },
   {
     id: 5,
-    icon: "👩‍🏫",
-    title: "Female Quran Tutors",
+    icon: "👨‍🔧",
+    title: "Expert Technicians",
     description:
-      "Learn Quran with our dedicated female instructors in a comfortable and empowering online learning environment.",
+      "Get service from experienced AC technicians who handle installation, repair, gas filling, and maintenance professionally.",
   },
   {
     id: 6,
     icon: "🔄",
-    title: "Alternative Teachers",
+    title: "Replacement Support",
     description:
-      "We prioritize continuity of learning. If your teacher is absent, a qualified substitute will be available to teach your class.",
+      "If your AC is beyond repair, we help you replace it with the best available new or used AC at a fair price.",
   },
 ];
 
@@ -71,21 +71,23 @@ const WhyStudy = () => {
       </div>
 
       <h3 className="text-xl font-bold text-center text-gray-800 mt-16">
-        Discover Why Our Students And Parents Love Us
+        Discover Why Our Customers Trust Our AC Services
       </h3>
 
       <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-8 px-4 md:px-12">
         <div className="flex-1 text-center md:text-left">
           <h4 className="text-lg font-bold text-gray-800 mb-4">
-            We invite you to hear directly from our satisfied parents about
+            We invite you to hear directly from our satisfied customers about
             their experience.
           </h4>
+
           <p className="text-sm text-gray-600 mb-4">
-            Our Quran Academy offers personalized, supportive learning with
-            dedicated teachers, a comprehensive curriculum, and a positive
-            environment. That’s why our students love us and our teaching
-            methods.
+            Our AC service platform offers reliable buying, selling,
+            installation, and repair solutions with expert technicians. We focus
+            on quality service, fair pricing, and customer satisfaction, which
+            is why our clients trust and recommend us.
           </p>
+
           <div className="flex justify-center md:justify-start">
             <span className="text-yellow-500 text-lg">★★★★★</span>
           </div>
@@ -96,7 +98,7 @@ const WhyStudy = () => {
             <iframe
               width="100%"
               height="215"
-              src="https://www.youtube.com/embed/XgfV4NCr9Js"
+              src="https://www.youtube.com/embed/E7_1M5J_tf0"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -172,7 +172,7 @@ const Home = () => {
       <QuranLearningSection />
       <Courses />
       <WhyStudy />
-      <IslamicLearningSection />
+      {/* <IslamicLearningSection /> */}
       <ContactUs />
       <WhyChooseUs />
     </>
