@@ -17,7 +17,7 @@ const Navbar = () => {
                 className="h-14"
               /> */}
               <img
-                src="/public/Content/Images/Ac logo.png"
+                src="/Content/Images/Ac logo.png"
                 alt="Logo"
                 className="h-16"
               />

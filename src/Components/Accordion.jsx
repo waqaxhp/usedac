@@ -4,35 +4,35 @@ import { Link } from "react-router-dom";
 
 const Accordion = () => {
   const [activeIndexes, setActiveIndexes] = useState(
-    Array(4).fill(true) // All items open by default
+    Array(4).fill(true), // All items open by default
   );
 
   const toggleAccordion = (index) => {
     setActiveIndexes((prev) =>
-      prev.map((isOpen, i) => (i === index ? !isOpen : isOpen))
+      prev.map((isOpen, i) => (i === index ? !isOpen : isOpen)),
     );
   };
 
   const data = [
     {
-      question: "What qualifications do your teachers have?",
+      question: "Do you buy used AC units in the UAE?",
       answer:
-        "Our teachers are highly qualified and experienced in teaching the Quran. They have a deep understanding of the Quran and its recitation.",
+        "Yes, we buy all types of used AC units including split, window, and central systems. We offer competitive prices based on the condition and model.",
     },
     {
-      question: "Can I try a free class before committing?",
+      question: "Can I get a price estimate before selling my AC?",
       answer:
-        "Yes, we offer free 3 days  trial lessons so you can experience our teaching methods before enrolling in a full course.",
+        "Absolutely! You can contact us on WhatsApp with your AC details and pictures, and we will provide a quick price estimate.",
     },
     {
-      question: "How do the classes work?",
+      question: "Do you provide AC installation services?",
       answer:
-        "Our classes are conducted live online using video conferencing technology. You will have the opportunity to interact with your teacher in real-time.",
+        "Yes, we offer professional AC installation, removal, and maintenance services across the UAE with experienced technicians.",
     },
     {
-      question: "Do you have female teachers in your classes?",
+      question: "Do you sell used or refurbished AC units?",
       answer:
-        "Yes, we have female teachers available for Quran classes. Our team of qualified teachers includes both male and female instructors to cater to the preferences of our students.",
+        "Yes, we sell high-quality used and refurbished AC units that are tested and ready for use at affordable prices.",
     },
   ];
 

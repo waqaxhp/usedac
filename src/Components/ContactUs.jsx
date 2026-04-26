@@ -16,7 +16,7 @@ const ContactUs = () => {
         "service_kiz0nzj", // Replace with your EmailJS service ID
         "template_com1kih", // Replace with your EmailJS template ID
         formRef.current,
-        "U0gW80xAzisBWnbGs" // Replace with your EmailJS public key
+        "U0gW80xAzisBWnbGs", // Replace with your EmailJS public key
       )
       .then(
         (result) => {
@@ -26,7 +26,7 @@ const ContactUs = () => {
         (error) => {
           console.log("Error:", error.text);
           setStatus("❌ Something went wrong. Please try again.");
-        }
+        },
       );
 
     e.target.reset();
@@ -39,9 +39,8 @@ const ContactUs = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-extrabold text-green-700">CONTACT US</h1>
           <p className="text-lg text-gray-600 mt-4">
-            Ready to start your journey in learning the Quran? We’re here to
-            help! Our dedicated team is excited to support you every step of the
-            way.
+            Your trusted partner for AC buying and selling in the UAE. Contact
+            us today for fast service, fair pricing, and professional support.
           </p>
         </div>
 
@@ -52,8 +51,12 @@ const ContactUs = () => {
             <h3 className="text-xl md:text-2xl font-bold mb-4">
               Learn From The Best
             </h3>
+
             <p className="text-sm text-gray-700 mb-6">
-              Join our Quran Academy for expert guidance.
+              We provide a vast variety of ac buying services across UAE. We buy
+              used ac from residents, industries and commercial sites, with
+              different variation sizes from 1 ton air conditioners to 4 ton
+              acs.
             </p>
             <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
               <input
@@ -80,7 +83,7 @@ const ContactUs = () => {
               <input
                 type="text"
                 name="country"
-                placeholder="Your Country Name?"
+                placeholder="Wich Service You Want?"
                 required
                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-600"
               />
@@ -88,7 +91,7 @@ const ContactUs = () => {
                 type="submit"
                 className="w-full py-2 bg-gradient-to-r from-yellow-500 to-green-600 text-white font-semibold rounded-md hover:from-yellow-400 hover:to-green-500 transition"
               >
-                🎓 Get 3 Days Free Trial
+                Get A Free Quote
               </button>
             </form>
             {/* Status Message */}
@@ -106,7 +109,7 @@ const ContactUs = () => {
           {/* Image Section */}
           <div className="flex justify-center items-center">
             <img
-              src="/Content/Images/contact.png"
+              src="/Content/Images/ac  (3).jpg"
               alt="Illustration"
               className="w-full max-w-md h-auto"
             />
@@ -114,7 +117,7 @@ const ContactUs = () => {
         </div>
       </div>
       <Link
-        to="https://api.whatsapp.com/send?phone=9203124874272"
+        to="https://api.whatsapp.com/send?phone=9203356863576"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 bg-green-500 p-3 rounded-full shadow-lg hover:bg-green-600 transition"
