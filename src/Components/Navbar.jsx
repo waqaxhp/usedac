@@ -103,64 +103,65 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-black shadow-lg">
-          <NavLink
-            to="/"
-            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Home
-          </NavLink>
+        <div className="md:hidden fixed top-16 left-0 w-full h-screen bg-black z-50">
+          <div className="flex flex-col">
+            <NavLink
+              to="/"
+              className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Home
+            </NavLink>
 
-          <NavLink
-            to="/services"
-            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Courses
-          </NavLink>
+            <NavLink
+              to="/services"
+              className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Courses
+            </NavLink>
 
-          <NavLink
-            to="/testimonials"
-            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Testimonial
-          </NavLink>
+            <NavLink
+              to="/testimonials"
+              className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Testimonial
+            </NavLink>
 
-          <NavLink
-            to="/pricing"
-            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Pricing
-          </NavLink>
+            <NavLink
+              to="/pricing"
+              className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Pricing
+            </NavLink>
 
-          <NavLink
-            to="/mechanics"
-            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Mechanics
-          </NavLink>
+            <NavLink
+              to="/mechanics"
+              className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Mechanics
+            </NavLink>
 
-          <NavLink
-            to="/about"
-            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            About Us
-          </NavLink>
+            <NavLink
+              to="/about"
+              className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About Us
+            </NavLink>
 
-          <NavLink
-            to="/contact-us"
-            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Contact Us
-          </NavLink>
+            <NavLink
+              to="/contact-us"
+              className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact Us
+            </NavLink>
+          </div>
         </div>
       )}
     </nav>
