@@ -37,7 +37,7 @@ const Navbar = () => {
             </NavLink>
             <div className="relative group">
               <NavLink
-                to="/courses"
+                to="/services"
                 className="text-gray-200 font-bold hover:text-green-700 focus:outline-none"
               >
                 Courses
