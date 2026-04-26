@@ -30,11 +30,11 @@ const MaleQuranTeacher = () => {
 
             {/* Image Section */}
             <div className="flex justify-center my-6">
-              <img
+              {/* <img
                 src="/Content/Images/ac  (2).jpg"
                 alt="Female Quran Teacher Illustration"
                 className="w-full max-w-md"
-              />
+              /> */}
               <img
                 src="/Content/Images/ac  (6).jpg"
                 alt="Male Quran Teacher Illustration"

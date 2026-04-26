@@ -119,7 +119,7 @@ const Navbar = () => {
               className="block px-4 py-3 text-gray-200 font-bold hover:bg-green-700"
               onClick={() => setIsMenuOpen(false)}
             >
-              Courses
+              Sevices
             </NavLink>
 
             <NavLink
