@@ -25,7 +25,7 @@ const Home = () => {
         "service_kiz0nzj", // Your Service ID
         "template_com1kih", // Your Template ID
         formRef.current,
-        "U0gW80xAzisBWnbGs" // Your Public Key
+        "U0gW80xAzisBWnbGs", // Your Public Key
       );
 
       setStatus("✅ Message sent successfully!");
@@ -42,25 +42,29 @@ const Home = () => {
       <div className="relative bg-gradient-to-r from-green-900 to-green-700 text-white pt-16">
         <div
           className="bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/Content/Images/About us bg.jpg')" }}
+          style={{ backgroundImage: "url('/Content/Images/ac  (1).jpg')" }}
         >
           <div className="container mx-auto px-4 lg:px-20 py-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             {/* Left Section */}
             <div className="text-white">
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                Recite, Understand, Memorize and Revise.
+                {/* Recite, Understand, Memorize and Revise. */}
+                The Used AC Buyers in Dubai
               </h1>
               <h2 className="text-3xl md:text-4xl font-semibold mt-4">
-                We Offer Online Quran Courses
+                We Offer
               </h2>
               <p className="mt-4 text-sm md:text-base">
-                We warmly welcome all Muslims to come and understand the Holy
-                Quran under our expert teachers.
+                At Used AC Buyers, we specialize in providing a smooth
+                experience for those looking to buy and sell their used home,
+                office, or hotel air conditioner in Dubai. Whether you’re
+                upgrading your ac or your ac is old, we offer the best prices
+                for your ac, turning it into cash fast.
               </p>
               <div className="flex flex-col md:flex-row gap-4 mt-6">
                 <NavLink to="/courses">
                   <button className="px-6 py-3 bg-green-600 hover:bg-green-500 rounded-full font-semibold transition">
-                    Our Courses
+                    Our Servces
                   </button>
                 </NavLink>
                 <NavLink to="/contact-us">
@@ -70,18 +74,21 @@ const Home = () => {
                 </NavLink>
               </div>
               <p className="mt-4 text-sm text-gray-200">
-                You will be impressed by our well-trained Quran tutors – it’s a
+                You will be impressed by our Servces And Rates – it’s a
                 guarantee!
               </p>
             </div>
 
             {/* Right Section - Contact Form */}
-            <div className="bg-white text-black p-6 md:p-8 rounded-lg shadow-md relative">
+            {/* <div className="bg-white text-black p-6 md:p-8 rounded-lg shadow-md relative"> */}
+            {/* <div className="bg-white/10 backdrop-blur-md text-white p-6 md:p-8 rounded-lg shadow-md border border-white/20"> */}
+            <div className="bg-white/10 backdrop-blur-xl text-white p-6 md:p-8 rounded-2xl shadow-xl border border-white/20">
               <h3 className="text-xl md:text-2xl font-bold mb-4">
-                Learn From The Best
+                Get a free quote
               </h3>
               <p className="text-sm text-gray-700 mb-6">
-                Join our Quran Academy for expert guidance.
+                Our customers will receive quick quote about their ac not a
+                estimate an actual price
               </p>
 
               {/* EmailJS Form */}
@@ -118,7 +125,7 @@ const Home = () => {
                   type="submit"
                   className="w-full py-2 bg-gradient-to-r from-yellow-500 to-green-600 text-white font-semibold rounded-md hover:from-yellow-400 hover:to-green-500 transition"
                 >
-                  🎓 Get 3 Days Free Trial
+                  🎓 Get a Free Inspection
                 </button>
               </form>
 
@@ -139,16 +146,17 @@ const Home = () => {
         {/* Arabic Text and Why Choose Section */}
         <div className="bg-white py-6 text-center">
           <p className="text-xl md:text-2xl text-green-700 font-bold">
-            خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ
+            نشتري ونبيع المكيفات المستعملة بأفضل الأسعار في الإمارات، بثقة وجودة
+            مضمونة
           </p>
           <h2 className="text-2xl md:text-3xl text-green-900 font-bold mt-4">
-            Why Choose Live Quran Teachers?
+            Your Trusted Partner for AC Buying & Selling in the UAE
           </h2>
         </div>
 
         {/* WhatsApp Button */}
         <Link
-          to="https://api.whatsapp.com/send?phone=9203124874272"
+          to="https://api.whatsapp.com/send?phone=9203356863576"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-4 right-4 bg-green-500 p-3 rounded-full shadow-lg hover:bg-green-600 transition"

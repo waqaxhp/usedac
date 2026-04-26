@@ -11,10 +11,15 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex-shrink-0">
             <NavLink to="/" className="flex items-center">
-              <img
+              {/* <img
                 src="/Content/Images/logo i.png"
                 alt="Logo"
                 className="h-14"
+              /> */}
+              <img
+                src="/public/Content/Images/Ac logo.png"
+                alt="Logo"
+                className="h-16"
               />
               {/* <span className="text-xl font-bold ml-2 text-green-700">
                 Quran Online Lessons
