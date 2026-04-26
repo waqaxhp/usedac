@@ -147,10 +147,10 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
               className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-green-100"
             >
-              Courses
+              services
             </button>
             {/* Dropdown Menu */}
-            <div className="pl-6">
+            {/* <div className="pl-6">
               <a
                 href="/noorani-qaida"
                 className="block px-4 py-2 text-gray-700 hover:bg-green-100"
@@ -169,7 +169,7 @@ const Navbar = () => {
               >
                 Quran Memorization
               </a>
-            </div>
+            </div> */}
           </div>
           <a
             href="/testimonials"
@@ -184,10 +184,10 @@ const Navbar = () => {
             Pricing
           </a>
           <a
-            href="/teachers"
+            href="/mechanics"
             className="block px-4 py-2 text-gray-700 hover:bg-green-100"
           >
-            Teachers
+            Mechanics
           </a>
           <a
             href="/about"
