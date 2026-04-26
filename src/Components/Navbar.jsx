@@ -81,13 +81,13 @@ const Navbar = () => {
               to="/hadiya"
               className="text-gray-200 font-bold hover:text-green-700"
             >
-              Hadiya
+              Pricing
             </NavLink>
             <NavLink
               to="/teachers"
               className="text-gray-200 font-bold hover:text-green-700"
             >
-              Teachers
+              Mechanics
             </NavLink>
 
             <NavLink
@@ -181,7 +181,7 @@ const Navbar = () => {
             href="/hadiya"
             className="block px-4 py-2 text-gray-700 hover:bg-green-100"
           >
-            Hadiya
+            Pricing
           </a>
           <a
             href="/teachers"

@@ -9,33 +9,33 @@ const Footer = () => {
         <div>
           <div className="flex items-center mb-4">
             <img
-              src="/Content/Images/logo i.png"
-              alt="Quran Online Lessons Logo"
+              src="/public/Content/Images/Ac logo.png"
+              alt="USed Ac Sell Parchase"
               className="w-15 h-12 "
             />
             {/* <h2 className="text-lg font-bold ml-2">Quran Online Lessons</h2> */}
           </div>
           <p className="text-sm leading-relaxed">
-            Quran Online Lessons.com offers a unique and engaging approach to
-            learning the Quran online. Whether you're a child or an adult, our
-            interactive lessons and expert tutors will guide you through the
-            intricacies of Quranic recitation and understanding. With flexible
-            learning options and a focus on personalized attention, we make
-            Quran learning accessible and enjoyable for all.
+            Our AC Selling & Services platform offers a simple and reliable way
+            to buy, sell, and service air conditioners. Whether you need a
+            brand-new AC, a used unit, or professional repair services, our
+            expert technicians and trusted sellers ensure a smooth experience.
+            With flexible options and affordable pricing, we make cooling
+            solutions accessible and convenient for everyone.
           </p>
         </div>
 
         {/* Our Courses Section */}
         <div>
-          <h3 className="text-lg font-bold mb-4">OUR COURSES</h3>
+          <h3 className="text-lg font-bold mb-4">OUR SERVICES</h3>
           <ul className="space-y-2 text-sm">
-            <li>📖 NOORANI QAIDA</li>
-            <li>📘 TAJWEED-e-QURAN</li>
-            <li>📋 TAFSEER-e-QURAN</li>
-            <li>🕋 QURAN MEMORIZATION</li>
-            <li>📚 ISLAMIC STUDIES</li>
-            <li>🌙 DAILY SUPPLICATIONS</li>
-            <li>⚙️ SIX KALIMAS</li>
+            <li>❄️ NEW AC SALES (Split / Window / Inverter)</li>
+            <li>🔄 USED AC BUY & SELL</li>
+            <li>🛠️ AC INSTALLATION SERVICE</li>
+            <li>⚙️ AC REPAIR & MAINTENANCE</li>
+            <li>🧼 AC GENERAL SERVICING & CLEANING</li>
+            <li>💨 GAS REFILLING & COOLING SOLUTIONS</li>
+            <li>📦 EXCHANGE OLD AC WITH NEW AC</li>
           </ul>
         </div>
 
@@ -43,15 +43,15 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold mb-4">CONTACT DETAILS</h3>
           <ul className="space-y-2 text-sm">
-            <li>📞 +923124874272</li>
-            <li>📞 +923029052062</li>
-            <li>📧 tehseenzafar037@gmail.com</li>
+            <li>📞 +923356863576</li>
+            <li>📞 +923356863576</li>
+            <li>📧 waqaxhp@gmail.com</li>
             <li className="flex gap-3">
-              <a href="https://web.facebook.com/onlinequran37?mibextid=ZbWKwL&_rdc=1&_rdr">
+              <a href="https://www.facebook.com/">
                 <FaFacebookSquare />
               </a>
 
-              <a href="https://api.whatsapp.com/send?phone=9203124874272">
+              <a href="https://api.whatsapp.com/send?phone=9203356863576">
                 <FaWhatsappSquare />
               </a>
             </li>

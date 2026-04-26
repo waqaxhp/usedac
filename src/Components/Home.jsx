@@ -174,6 +174,7 @@ const Home = () => {
       <WhyStudy />
       <IslamicLearningSection />
       <ContactUs />
+      <WhyChooseUs />
     </>
   );
 };
