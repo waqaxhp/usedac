@@ -21,9 +21,6 @@ const Navbar = () => {
                 alt="Logo"
                 className="h-16"
               />
-              {/* <span className="text-xl font-bold ml-2 text-green-700">
-                Quran Online Lessons
-              </span> */}
             </NavLink>
           </div>
 
@@ -42,34 +39,6 @@ const Navbar = () => {
               >
                 Courses
               </NavLink>
-              {/* Dropdown Menu */}
-              {/* <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg rounded-lg mt-2">
-                <NavLink
-                  to="/digital-library"
-                  className="block px-4 py-2 font-bold text-gray-700 hover:bg-green-100"
-                >
-                  Downlode
-                </NavLink>
-                <NavLink
-                  to="/noorani-qaida"
-                  className="block px-4 py-2 font-bold text-gray-700 hover:bg-green-100"
-                >
-                  Noorani Qaida
-                </NavLink>
-                <NavLink
-                  to="/tajweed-quran"
-                  className="block px-4 py-2 font-bold text-gray-700 hover:bg-green-100"
-                >
-                  Tajweed e Quran
-                </NavLink>
-
-                <NavLink
-                  to="/quran-memorization"
-                  className="block px-4 py-2 font-bold text-gray-700 hover:bg-green-100"
-                >
-                  Quran Memorization
-                </NavLink>
-              </div> */}
             </div>
             <NavLink
               to="/testimonials"
@@ -134,73 +103,64 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white shadow-lg">
-          <a
-            href="/"
-            className="block px-4 py-2 text-gray-700 hover:bg-green-100"
+        <div className="md:hidden bg-black shadow-lg">
+          <NavLink
+            to="/"
+            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
+            onClick={() => setIsMenuOpen(false)}
           >
             Home
-          </a>
-          <div className="relative">
-            <button
-              onClick={() => setIsMenuOpen(false)}
-              className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-green-100"
-            >
-              services
-            </button>
-            {/* Dropdown Menu */}
-            {/* <div className="pl-6">
-              <a
-                href="/noorani-qaida"
-                className="block px-4 py-2 text-gray-700 hover:bg-green-100"
-              >
-                Noorani Qaida
-              </a>
-              <a
-                href="/tajweed-quran"
-                className="block px-4 py-2 text-gray-700 hover:bg-green-100"
-              >
-                Tajweed e Quran
-              </a>
-              <a
-                href="/quran-memorization"
-                className="block px-4 py-2 text-gray-700 hover:bg-green-100"
-              >
-                Quran Memorization
-              </a>
-            </div> */}
-          </div>
-          <a
-            href="/testimonials"
-            className="block px-4 py-2 text-gray-700 hover:bg-green-100"
+          </NavLink>
+
+          <NavLink
+            to="/services"
+            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Courses
+          </NavLink>
+
+          <NavLink
+            to="/testimonials"
+            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
+            onClick={() => setIsMenuOpen(false)}
           >
             Testimonial
-          </a>
-          <a
-            href="/Pricing"
-            className="block px-4 py-2 text-gray-700 hover:bg-green-100"
+          </NavLink>
+
+          <NavLink
+            to="/pricing"
+            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
+            onClick={() => setIsMenuOpen(false)}
           >
             Pricing
-          </a>
-          <a
-            href="/mechanics"
-            className="block px-4 py-2 text-gray-700 hover:bg-green-100"
+          </NavLink>
+
+          <NavLink
+            to="/mechanics"
+            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
+            onClick={() => setIsMenuOpen(false)}
           >
             Mechanics
-          </a>
-          <a
-            href="/about"
-            className="block px-4 py-2 text-gray-700 hover:bg-green-100"
+          </NavLink>
+
+          <NavLink
+            to="/about"
+            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
+            onClick={() => setIsMenuOpen(false)}
           >
             About Us
-          </a>
-          <a
-            href="/contact"
-            className="block px-4 py-2 text-gray-700 hover:bg-green-100"
+          </NavLink>
+
+          <NavLink
+            to="/contact-us"
+            className="block px-4 py-2 text-gray-200 font-bold hover:bg-green-700"
+            onClick={() => setIsMenuOpen(false)}
           >
             Contact Us
-          </a>
+          </NavLink>
         </div>
       )}
     </nav>
