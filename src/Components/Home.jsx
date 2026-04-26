@@ -62,7 +62,7 @@ const Home = () => {
                 for your ac, turning it into cash fast.
               </p>
               <div className="flex flex-col md:flex-row gap-4 mt-6">
-                <NavLink to="/courses">
+                <NavLink to="/services">
                   <button className="px-6 py-3 bg-green-600 hover:bg-green-500 rounded-full font-semibold transition">
                     Our Servces
                   </button>
