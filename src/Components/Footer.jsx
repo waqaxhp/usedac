@@ -72,7 +72,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-gray-600 mt-6 pt-6 text-center text-xs text-gray-300">
         <p>
-          Copyright © 2025 quranonlinelessons.com | Powered by
+          Copyright © 2026 muhammadportfolio.vercel.app/ | Powered by
           <a href="https://survexmedia.com" className="text-red-500 mx-1">
             Malik Waqas
           </a>
